@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Darija Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🌍 Darija Translator</h2>
+        <p>English → Moroccan Arabic</p>
+        
+        <label for="sourceText">English Text:</label>
+        <textarea id="sourceText" rows="4" placeholder="Enter English text here..."></textarea>
+        
+        <button id="translateBtn">🔄 Translate</button>
+        
+        <label for="translation">Darija Translation:</label>
+        <div id="translation" class="translation-box"></div>
+        
+        <button id="speakBtn" disabled>🔊 Read Aloud</button>
+        
+        <div class="status" id="status"></div>
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+</html>
